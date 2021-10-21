@@ -21,7 +21,7 @@ So if we have two letters (**a** and **b**) and two states (**uppercase** and **
 ## Conclusion
 With two states, we can make uppercase letters be a binary state 1 and lowercase letters a binary state 0.  
 We can see that if we start from `00` which is `aa` we can see that It's binary addition. So the final result with two letters should look like this:
-```js
+```s
 00 => ab
 01 => aB
 10 => Ab
