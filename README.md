@@ -11,14 +11,14 @@ I love the crunch program in Kali Linux but it's really limited.
 Did you ever try to make a password that has capital and lover letters but it's a fixed word: `password, Password, pAssword` and so on.
 
 Introducing the crunch2.0 that solves this problem. One little python script that does it all.
-***
+
 ## Math
 
 ### Equation
-So the equation is quite easy: $(numberOfStates)^{(numberOfLetters)}$  
-So if we have two letters (**a** and **b**) and two states (**uppercase** and **lowercase**). 
-***
+So the equation is quite easy: $(numberOfStates)^{(numberOfLetters)}$ 
+
 ## Conclusion
+So if we have two letters (**a** and **b**) and two states (**uppercase** and **lowercase**).  
 With two states, we can make uppercase letters be a binary state 1 and lowercase letters a binary state 0.  
 We can see that if we start from `00` which is `aa` we can see that It's binary addition. So the final result with two letters should look like this:
 ```s
@@ -27,7 +27,7 @@ We can see that if we start from `00` which is `aa` we can see that It's binary 
 10 => Ab
 11 => AB
 ```
-***
+
 ## Usage with crunch using bash script
 
 ### Bash script
